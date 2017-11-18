@@ -1,0 +1,36 @@
+<Files "accounts.xml">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "auctions.xml">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "bounties.xml">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "completedauctions.xml">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "completedbounties.xml">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "expiredauctions.xml">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "expiredbounties.xml">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "auction_id_counter.txt">
+     Order allow,deny
+     Deny from all
+</Files>
+<Files "bounty_id_counter.txt">
+     Order allow,deny
+     Deny from all
+</Files>

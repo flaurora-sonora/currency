@@ -1,0 +1,93 @@
+.light 	{ color: #40a4df; }		.light_complement 	{ color: #B05910; }
+.mid 	{ color: #ACCCD7; }		.mid_complement 	{ color: #f9ff00; }
+.dark 	{ color: #00008B; }		.dark_complement 	{ color: #FFFF74; }
+
+.background_light 	{ background-color: #40a4df; }		.background_light_complement 	{ background-color: #B05910; }
+.background_mid 	{ background-color: #ACCCD7; }		.background_mid_complement 		{ background-color: #f9ff00; }
+.background_dark 	{ background-color: #00008B; }		.background_dark_complement 	{ background-color: #FFFF74; }
+
+.fatal_error, .bad_news { color: red; }
+.warning { color: orange; }
+.good_news { color: green; }
+
+#login_toggle .warning, #login .warning, #new_account_toggle .warning, #new_account .warning, #account_details_toggle .warning, #account_details .warning, #new_bounty_toggle .warning, #new_bounty .warning, #new_auction_toggle .warning, #new_auction .warning, #messages_toggle .warning, #messages .warning { color: #f9ff00; }
+
+.reward { /*font-size: 80%;*/ font-weight: 900; color: #40a4df; text-align: right; vertical-align: bottom; }
+.accepted_list { font-size: 80%; color: #CCCC66; }
+/*.available_bounties { width: 50%; float: left; }
+.bounties_you_accepted { width: 49%; float: left; padding-left: 8px; }
+.bounties_you_issued_others_are_offering_as_completed { width: 49%; float: left; padding-left: 8px; }*/
+/*.available_bounties_inner { border: 1px solid #999999; border-radius: 12px; padding: 8px 8px 8px 8px; }
+.bounties_you_accepted_inner { border: 1px solid #999999; border-radius: 12px; padding: 8px 8px 8px 8px; }*/
+.bounty { border: 1px solid black; border-radius: 12px; padding: 8px; margin-bottom: 4px; }
+.button { background: url() center left repeat; border: 1px solid black; border-radius: 12px; padding: 8px 12px 8px 12px; color: black; font-weight: bold; }
+.button:hover { color: grey; }
+.button:active { color: red; }
+.good_button { background-color: #fff; background: url(good.png) center left repeat; border: 1px solid green; border-radius: 12px; padding: 8px 12px 8px 12px; color: green; font-weight: bold; }
+.good_button:hover { color: orange; }
+.good_button:active { color: red; }
+.warning_button { background-color: #fff; background: url(warning.png) center left repeat; border: 1px solid red; border-radius: 12px; padding: 8px 12px 8px 12px; color: red; font-weight: bold; }
+.warning_button:hover { color: grey; }
+.warning_button:active { color: red; }
+.bad_button { background-color: #fff; background: url(bad.png) center left repeat; border: 1px solid red; border-radius: 12px; padding: 8px 12px 8px 12px; color: red; font-weight: bold; }
+.bad_button:hover { color: grey; }
+.bad_button:active { color: red; }
+a.button, a.good_button, a.warning_button, a.bad_button { text-decoration: none; }
+div.button, div.good_button, div.warning_button, div.bad_button { padding: 8px 0 8px 0; border: none; background: none; }
+.monospace { font-family: monospace; }
+thead th { vertical-align: bottom; }
+td { vertical-align: top; }
+table { width: 100%; }
+table ul { margin-top: 0; padding-left: 12px; }
+textarea { max-width: 100%; } /* since buttons are the limiter, we'll need responsive buttons */
+form { margin: 0; }
+
+/*#others_completed_table_wrapper, #others_completed_table_length, #others_completed_table { width: 45%; }*/
+/*#others_completed_table_wrapper { width: 45%; }
+#others_completed_table_wrapper { float: left; }*/
+#currency_system_integrity_indicator { height: 16px; width: 16px; display: inline-block; color: white; border: 2px solid white; border-radius: 14px; box-shadow: 0 0 3px #444; box-sizing: content-box; }
+
+#currency_system_information_toggle { padding: 4px; text-align: center; background-color: #ACCCD7; border: solid 1px #778; }
+#currency_system_information { display: none; padding: 4px; background-color: #ACCCD7; border: solid 1px #778; }
+#login_toggle { padding: 4px; text-align: center; background-color: #ACCCD7; border: solid 1px #778; }
+#login { display: none; padding: 4px; background-color: #ACCCD7; border: solid 1px #778; }
+#new_account_toggle { padding: 4px; text-align: center; background-color: #ACCCD7; border: solid 1px #778; }
+#new_account { display: none; padding: 4px; background-color: #ACCCD7; border: solid 1px #778; }
+#account_details_toggle { padding: 4px; text-align: center; background-color: #ACCCD7; border: solid 1px #778; }
+#account_details { display: none; padding: 4px; background-color: #ACCCD7; border: solid 1px #778; }
+#new_bounty_toggle { padding: 4px; text-align: center; background-color: #ACCCD7; border: solid 1px #778; }
+#new_bounty { display: none; padding: 4px; background-color: #ACCCD7; border: solid 1px #778; }
+#new_auction_toggle { padding: 4px; text-align: center; background-color: #ACCCD7; border: solid 1px #778; }
+#new_auction { display: none; padding: 4px; background-color: #ACCCD7; border: solid 1px #778; }
+#messages_toggle { padding: 4px; text-align: center; background-color: #ACCCD7; border: solid 1px #778; }
+#messages { display: none; padding: 4px; background-color: #ACCCD7; border: solid 1px #778; }
+
+/* tabber styles */
+/* have to reconsider whether a small shadow makes the tabs more obvious */
+.tabberlive .tabbertabhide { display:none; }
+.tabber {}
+.tabberlive { margin-top:1em; }
+ul.tabbernav { margin:0; padding: 3px 0; border-bottom: 1px solid #778; /*font: bold 12px Verdana, sans-serif;*/ /*font: arial;*/ font-weight: bold; }
+ul.tabbernav li { list-style: none; margin: 0; display: inline; }
+ul.tabbernav li a { padding: 3px 0.5em; margin-left: 3px; border: 1px solid #778; /*border-bottom: none;*/ border-bottom: 1px solid #ACCCD7; /*background: #DDE;*/ background-color: #ACCCD7; text-decoration: none; }
+ul.tabbernav li a:link { /*color: #448;*/ color: #00008B; }
+ul.tabbernav li a:visited { /*color: #667; color: #555577;*/ }
+ul.tabbernav li a:hover { color: #000; background: #AAE; border-color: #000; border-bottom: 1px solid #AAE; }
+ul.tabbernav li.tabberactive a { background-color: #fff; border-bottom: 1px solid #fff; }
+ul.tabbernav li.tabberactive a:hover { color: #000; background: white; border-bottom: 1px solid white; }
+.tabberlive .tabbertab { padding:5px; border:1px solid #aaa; border-top:0; }
+.tabberlive .tabbertab h2 { display:none; }
+/*.tabberlive .tabbertab h3 { display:none; }*/
+.tabberlive#tab1 {}
+.tabberlive#tab2 {}
+.tabberlive#tab2 .tabbertab { height: 200px; overflow: auto; }
+
+.time_preset_button { border: 1px solid black; padding: 2px; margin-right: 2px; }
+
+@media only screen and (max-width:960px){
+	/* styles for browsers smaller than 960px; */
+	#tabset1 { width: 100% !important; }
+	#tabset2 { display: none; }
+}
+
+.private { color: black; background: black; }
