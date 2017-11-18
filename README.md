@@ -1,5 +1,5 @@
 # currency
-This code was written in recognition of the fact that faulty currency systems have wide-reaching effects. 
+This code was written in recognition of the fact that faulty currency systems have wide-reaching effects. Requires <a href="https://github.com/flaurora-sonora/LOM">LOM</a>.
 
 <h2>how it works</h2>
 
